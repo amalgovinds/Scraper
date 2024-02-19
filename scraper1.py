@@ -14,4 +14,4 @@ for row in col_data[1:]:
     ind_row_data=[data.text.strip() for data in row_data]
     length =len(df)
     df.loc[length]=ind_row_data
-df.to_csv(r'/Users/amalgovinds/ME/Python/Companie1.csv',index=False)
+df.to_csv(r'/home/amal/ME/py_proj/Scraper/Companies.csv',index=False)
